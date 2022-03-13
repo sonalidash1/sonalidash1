@@ -1,0 +1,165 @@
+[1643863946.479][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 61525
+[1643863946.479][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1643863947.112][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "headless" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "headless" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1643863947.118][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1643863947.119][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1643863947.131][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\SONALI\AppData\Local\Temp\scoped_dir8892_1625357710" data:,
+[1643863947.783][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1643863947.805][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.99",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\SONALI\\AppData\\Local\\Temp\\scoped_dir8892_1625357710"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56861"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5cf8423a25916e875037e9c775f9a613"
+}
+[1643863948.217][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND Navigate {
+   "url": "https://www.facebook.com/"
+}
+[1643863948.217][INFO]: Waiting for pending navigations...
+[1643863948.223][INFO]: Done waiting for pending navigations. Status: ok
+[1643863948.992][INFO]: Waiting for pending navigations...
+[1643863950.486][INFO]: Done waiting for pending navigations. Status: ok
+[1643863950.486][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE Navigate
+[1643863952.497][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='login']"
+}
+[1643863952.497][INFO]: Waiting for pending navigations...
+[1643863952.498][INFO]: Done waiting for pending navigations. Status: ok
+[1643863952.516][INFO]: Waiting for pending navigations...
+[1643863952.517][INFO]: Done waiting for pending navigations. Status: ok
+[1643863952.517][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "db323667-990d-4368-8f2a-8397b005db11"
+}
+[1643863952.528][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND ClickElement {
+   "id": "db323667-990d-4368-8f2a-8397b005db11"
+}
+[1643863952.529][INFO]: Waiting for pending navigations...
+[1643863952.530][INFO]: Done waiting for pending navigations. Status: ok
+[1643863952.594][INFO]: Waiting for pending navigations...
+[1643863952.600][INFO]: Done waiting for pending navigations. Status: ok
+[1643863952.600][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE ClickElement
+[1643863952.607][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"email_container\"]/div[2]"
+}
+[1643863952.608][INFO]: Waiting for pending navigations...
+[1643863952.649][INFO]: Done waiting for pending navigations. Status: ok
+[1643863953.570][INFO]: Waiting for pending navigations...
+[1643863954.125][INFO]: Done waiting for pending navigations. Status: ok
+[1643863954.138][INFO]: Waiting for pending navigations...
+[1643863954.139][INFO]: Done waiting for pending navigations. Status: ok
+[1643863954.139][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "22e5a680-3157-4752-a100-9a46abefed4b"
+}
+[1643863954.143][INFO]: [5cf8423a25916e875037e9c775f9a613] COMMAND GetElementText {
+   "id": "22e5a680-3157-4752-a100-9a46abefed4b"
+}
+[1643863954.143][INFO]: Waiting for pending navigations...
+[1643863954.144][INFO]: Done waiting for pending navigations. Status: ok
+[1643863954.161][INFO]: Waiting for pending navigations...
+[1643863954.162][INFO]: Done waiting for pending navigations. Status: ok
+[1643863954.162][INFO]: [5cf8423a25916e875037e9c775f9a613] RESPONSE GetElementText "The email address or mobile number you entered isn't connected to an account. Find your account and log in."
